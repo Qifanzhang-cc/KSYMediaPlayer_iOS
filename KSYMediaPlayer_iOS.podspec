@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'KSYMediaPlayer_iOS'
-  spec.version      = '3.0.4'
+  spec.version      = '3.0.4.vb1'
   spec.license      = {
 :type => 'Proprietary',
 :text => <<-LICENSE
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.frameworks   = 'VideoToolbox'
   spec.ios.library = 'z', 'iconv', 'c++', 'bz2'
   spec.source = {
-	  :git => 'https://github.com/ksvc/KSYMediaPlayer_iOS.git', 
+	  :git => 'https://github.com/xiaoyaojing321/KSYMediaPlayer_iOS.git', 
 	  :tag => 'v'+spec.version.to_s
   }
  
